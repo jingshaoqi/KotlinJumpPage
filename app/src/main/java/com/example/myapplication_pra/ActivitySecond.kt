@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 class ActivitySecond: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.first_page)
+        setContentView(R.layout.second_page)
         init()
     }
     private fun init(){
