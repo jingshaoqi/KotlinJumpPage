@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    android:orientation="vertical"
+    tools:context=".ActivityFirst">
+    <TextView android:id = "@+id/text_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:text="first page">
+    </TextView>
+    <TextView android:id = "@+id/text_first_empty"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text_first">
+    </TextView>
+    <Button
+        android:id="@+id/button_goto_main_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_first_empty"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ButtonGotoMainPage"
+        />
+</RelativeLayout>
